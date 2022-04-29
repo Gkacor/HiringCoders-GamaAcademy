@@ -1,0 +1,25 @@
+Html é uma linguagem de formatação e estruturação.
+
+Site para utilizar de referência: w3schools
+
+Forma de letra padrão: Times New Roman
+
+Não faz distinção de maiúsculos e minúsculos.
+
+Opções de ferramentas:
+
+VS Code
+
+Sublime Text
+
+Notepad++
+
+### Tags
+
+Principal:
+
+<html></html> -(estrutura do documento)
+
+<head></head>
+
+<body></body> -(tudo que vai ser exibido pro usuário).
