@@ -1,0 +1,147 @@
+CSS -  a sigla significa Folha de Estilo em Cascatas.
+
+Utilizado para estilizar o HTML.
+
+<aside>
+💡 Documentações importantes:
+
+</aside>
+
+- CDN Mozilla
+- CSS Tricks
+
+exemplo:
+
+```css
+p {
+		color: red;
+	}
+```
+
+outros exemplos de CSS em HTML:		
+
+```css
+<style>
+	h1, span {
+			color: darkviolet;
+						}
+	body {
+				font-family: Verdana;
+				}
+
+</style>
+```
+
+### CSS e Sites Responsivos
+
+Necessário criar sites considerando a ideia de ter um design responsivo.
+
+Muito utilização mobile.
+
+como ter um layout responsivo:
+
+- Código limpo;
+- Evitar estilos inlines - Colocar Grid ou Flexbox;
+- Use Grids flexiveis;
+- Evite estilos absolutos;
+- Use media querys;
+
+Vantagens: Melhor para sites com maior conteúdo e formulários.
+
+Desvantagens: Ranqueamento no google pior, experiência mobile ruim.
+
+### Mobile First
+
+Celular como fonte principal da navegação, portanto desenvolver sites pensando primeiramente nos celulares para existir otimização.
+
+Também pode influenciar nas pesquisas do google.
+
+Desvantagens: Experiência ruim no desktop.
+
+### Estilos de CSS
+
+- <style>(tag geral)
+- inline(linha por linha)
+- fazer arquivo próprio(style.css)
+
+### Como pegar as tags, IDs e Classes?
+
+tag:
+
+body { }
+
+IDs: 
+
+#login { }
+
+Classes:
+
+.classe { }
+
+### Seletores
+
+selecionar tudo:
+
+```css
+*{
+	color: red;
+  }
+```
+
+Específico:
+
+```css
+classe tag tagdentro{
+												color: red;
+											}
+```
+
+Várias classes:
+
+```css
+#primeira, .segunda, .terceira {
+																color: red
+																}
+
+OU
+
+#primeira,
+.segunda,
+terceira { } 
+```
+
+Dentro de classes:
+
+```css
+.classe > tag{
+							color: red;
+							}
+obs:aplica pra todas as tags dentro da classe que tem esse nome, 
+mas não os que estão dentro de outras tags.
+```
+
+Hover(passar o mouse em cima):
+
+```css
+.classe tag hover{
+									color: red;
+									cursor: pointer;
+									transition: 200ms;
+									}
+```
+
+!Important:
+
+```css
+.classe > tag {
+								color: red !important;
+							}
+
+seletor absoluto, força a cor.
+```
+
+### FlexBox
+
+O que é?
+
+Forma dinâmica de criar um layout com blocos de tamanhos independentes e variáveis.
